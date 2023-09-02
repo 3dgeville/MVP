@@ -1,0 +1,58 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: #f0f0f0;
+	height: 100%;
+  }
+  
+  .messageList {
+	flex: 1;
+	padding: 16px;
+	overflow-y: auto;
+  }
+  
+  .messageContainer {
+	margin-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  }
+  
+  .messageBubble {
+	border-radius: 8px;
+	padding: 8px;
+	margin-bottom: 8px;
+	max-width: 70%;
+	min-width: 40%;
+  }
+  
+  .mainMessageBubble {
+	align-self: flex-start;
+	background-color: black;
+	min-height: 40px;
+	color: white;
+  }
+  
+  .secondaryMessageBubble {
+	align-self: flex-end;
+	background-color: #d0d0d0;
+	min-height: 20px;
+	color: black;
+  }
+  
+  .inputContainer {
+	border-top: 1px solid #ccc;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+  }
+  
+  .input {
+	flex: 1;
+	margin-left: 8px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
